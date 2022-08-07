@@ -1,0 +1,7 @@
+function booWho(bool) {
+  return Boolean(bool) === bool;
+  // return typeof bool === "boolean";
+  
+}
+
+booWho(null);
